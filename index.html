@@ -11,19 +11,25 @@
 			@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 		</style>
 	</head>
-	<body>
-		<!-- Features Pricing Resources Login Sign Up  -->
+	<body class="relative">
+		<div
+			class="bg-darkViolet flex flex-col absolute ml-auto mr-auto left-0 right-0 z-10 max-w-xs pt-10 pb-10 pl-4 pr-4 rounded-lg text-white font-poppins text-lg gap-4 top-12">
+			<button>Features</button><button>Pricing</button><button>Resources</button>
+			<div class="bg-grayishViolet h-px w-full"></div>
+			<button>Login</button
+			><button class="bg-cyan ml-4 mr-4 rounded-3xl pt-2 pb-2">Sign Up</button>
+		</div>
 		<header class="font-poppins">
 			<nav class="flex justify-between mt-8 ml-4 mr-4">
 				<picture><img src="images/logo.svg" alt="image of logo Shortly" /> </picture>
 				<button>
-					<img class="h-8" src="images/bars-solid.svg" alt="image of working" />
+					<img class="h-8" src="images/bars-solid.svg" alt="menu hamburger" />
 				</button>
 			</nav>
 			<picture
-				><img class="mt-8 relative left-10" src="images/illustration-working.svg" alt=""
+				><img class="mt-8 relative" src="images/illustration-working.svg" alt=""
 			/></picture>
-			<h1 class="font-bold text-4xl text-center mt-8 text-veryDarkBlue">
+			<h1 class="font-bold text-4xl text-center mt-12 text-veryDarkBlue">
 				More than just shorter links
 			</h1>
 			<p class="text-center mt-4 text-grayishViolet font-medium text-lg ml-4 mr-4">
@@ -37,31 +43,127 @@
 			</div>
 		</header>
 		<main class="">
-			<div
-				class="flex flex-col bg-shortenMobile ml-4 mr-4 pt-4 pb-4 pl-4 pr-4 mt-20 bg-contain bg-no-repeat bg-right bg-darkViolet rounded-lg">
-				<input
-					class="rounded-md pt-2 pb-2 pl-2"
-					type="text"
-					placeholder="Shorten a link here..." />
-				<button class="bg-cyan rounded-md mt-4 pt-2 pb-2 text-white">Shorten It!</button>
-			</div>
-			Advanced Statistics Track how your links are performing across the web with our advanced
-			statistics dashboard. Brand Recognition Boost your brand recognition with each click.
-			Generic links don’t mean a thing. Branded links help instil confidence in your content.
-			Detailed Records Gain insights into who is clicking your links. Knowing when and where
-			people engage with your content helps inform better decisions. Fully Customizable
-			Improve brand awareness and content discoverability through customizable links,
-			supercharging audience engagement. Boost your links today Get Started
-		</main>
-		<footer>
-			Features Link Shortening Branded Links Analytics Resources Blog Developers Support
-			Company About Our Team Careers Contact
-		</footer>
+			<section class="bg-slate-200 relative mt-40 pb-10">
+				<div
+					class="flex flex-col bg-shortenMobile pt-4 pb-4 pl-4 pr-4 bg-contain bg-no-repeat bg-right bg-darkViolet rounded-lg absolute -top-14 w-80 ml-auto mr-auto left-0 right-0">
+					<input
+						class="rounded-md pt-2 pb-2 pl-2"
+						type="text"
+						placeholder="Shorten a link here..." />
+					<button class="bg-cyan rounded-md mt-4 pt-2 pb-2 text-white">
+						Shorten It!
+					</button>
+				</div>
+				<div class="ml-10 mr-10 pt-40">
+					<h2 class="text-center text-2xl font-bold text-veryDarkBlue">
+						Advanced Statistics
+					</h2>
+					<p class="text-center text-grayishViolet mt-4">
+						Track how your links are performing across the web with our advanced
+						statistics dashboard.
+					</p>
+				</div>
+				<div class="relative">
+					<div class="bg-cyan w-2 h-full absolute ml-auto mr-auto left-0 right-0"></div>
+					<div
+						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative">
+						<picture>
+							<img
+								class="bg-darkViolet p-2 rounded-full absolute -top-7 ml-auto mr-auto left-0 right-0"
+								src="images/icon-brand-recognition.svg"
+								alt=""
+						/></picture>
+						<h2 class="text-center font-bold text-lg text-veryDarkBlue">
+							Brand Recognition
+						</h2>
+						<p class="text-center text-sm mt-4 text-grayishViolet">
+							Boost your brand recognition with each click. Generic links don’t mean a
+							thing. Branded links help instil confidence in your content.
+						</p>
+					</div>
 
-		<div class="attribution">
-			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-			>. Coded by <a href="#">Your Name Here</a>.
-		</div>
+					<div
+						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative">
+						<picture
+							><img
+								class="bg-darkViolet p-2 rounded-full absolute -top-7 ml-auto mr-auto left-0 right-0"
+								src="images/icon-detailed-records.svg"
+								alt=""
+						/></picture>
+						<h2 class="text-center font-bold text-lg text-veryDarkBlue">
+							Detailed Records
+						</h2>
+						<p class="text-center text-sm mt-4 text-grayishViolet">
+							Gain insights into who is clicking your links. Knowing when and where
+							people engage with your content helps inform better decisions.
+						</p>
+					</div>
+					<div
+						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative">
+						<picture
+							><img
+								class="bg-darkViolet p-2 rounded-full absolute -top-7 ml-auto mr-auto left-0 right-0"
+								src="images/icon-fully-customizable.svg"
+								alt=""
+						/></picture>
+						<h2 class="text-center font-bold text-lg text-veryDarkBlue">
+							Fully Customizable
+						</h2>
+						<p class="text-center text-sm mt-4 text-grayishViolet">
+							Improve brand awareness and content discoverability through customizable
+							links, supercharging audience engagement.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="bg-boostMobile pt-20 pb-20 bg-darkViolet bg-no-repeat bg-cover">
+				<h2 class="text-center text-white text-2xl font-bold">Boost your links today</h2>
+				<div class="flex justify-center">
+					<button
+						class="bg-cyan mt-4 rounded-3xl pl-8 pr-8 pt-2 pb-2 text-white font-bold">
+						Get Started
+					</button>
+				</div>
+			</section>
+		</main>
+		<footer class="bg-veryDarkViolet">
+			<div class="flex flex-col items-center">
+				<picture class="mt-10"><img src="images/logo-white.svg" alt="" /></picture>
+				<div class="text-center mt-10">
+					<div class="text-gray">
+						<ul>
+							<li class="font-bold text-white mb-4">Features</li>
+
+							<li>Link Shortening</li>
+							<li>Branded Links</li>
+							<li>Analytics</li>
+						</ul>
+					</div>
+					<div class="text-gray">
+						<ul>
+							<li class="font-bold text-white mb-4 mt-8">Resources</li>
+							<li>Blog</li>
+							<li>Developers</li>
+							<li>Support</li>
+						</ul>
+					</div>
+					<div class="text-gray">
+						<ul>
+							<li class="font-bold text-white mb-4 mt-8">Company</li>
+							<li>About</li>
+							<li>Our Team</li>
+							<li>Careers</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mt-8 mb-8 flex gap-4">
+					<button><img src="images/icon-facebook.svg" alt="" /></button>
+					<button><img src="images/icon-twitter.svg" alt="" /></button>
+					<button><img src="images/icon-pinterest.svg" alt="" /></button>
+					<button><img src="images/icon-instagram.svg" alt="" /></button>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
