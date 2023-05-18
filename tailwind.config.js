@@ -15,8 +15,8 @@ module.exports = {
 				poppins: ["Poppins", "sans-serif"],
 			},
 			backgroundImage: {
-				shortenMobile: "url('/images/bg-shorten-mobile.svg')",
-				boostMobile: "url('/images/bg-boost-mobile.svg')",
+				shortenMobile: "url('./images/bg-shorten-mobile.svg')",
+				boostMobile: "url('./images/bg-boost-mobile.svg')",
 			},
 		},
 	},
