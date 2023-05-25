@@ -17,6 +17,8 @@ module.exports = {
 			backgroundImage: {
 				shortenMobile: "url('./images/bg-shorten-mobile.svg')",
 				boostMobile: "url('./images/bg-boost-mobile.svg')",
+				shortenDesktop: "url('./images/bg-shorten-desktop.svg')",
+				boostDesktop: "url('./images/bg-boost-desktop.svg')",
 			},
 		},
 	},

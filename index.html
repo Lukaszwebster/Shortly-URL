@@ -21,18 +21,18 @@
 		</div>
 		<header class="font-poppins">
 			<nav
-				class="flex justify-between mt-8 ml-4 mr-4 sm:ml-20 sm:mr-20 items-center sm:justify-between">
+				class="flex justify-between mt-8 ml-4 mr-4 sm:ml-14 sm:mr-14 md:ml-20 md:mr-20 items-center sm:justify-between">
 				<div class="flex items-center gap-4">
 					<picture><img src="images/logo.svg" alt="image of logo Shortly" /> </picture>
-					<ul class="hidden sm:flex sm:gap-4 text-grayishViolet">
+					<ul class="hidden sm:flex sm:gap-2 text-grayishViolet">
 						<li>Features</li>
 						<li>Pricing</li>
 						<li>Resources</li>
 					</ul>
 				</div>
-				<div class="hidden sm:block">
+				<div class="hidden sm:flex">
 					<button class="text-grayishViolet">Login</button>
-					<button class="bg-cyan text-white rounded-3xl pl-8 pr-8 pt-2 pb-2 ml-2">
+					<button class="bg-cyan text-white rounded-3xl pl-4 pr-4 pt-2 pb-2 ml-2">
 						Sign Up
 					</button>
 				</div>
@@ -40,7 +40,8 @@
 					<img class="h-8" src="images/bars-solid.svg" alt="menu hamburger" />
 				</button>
 			</nav>
-			<div class="sm:flex sm:flex-row-reverse sm:ml-20 sm:mt-4 sm:items-center">
+			<div
+				class="sm:flex sm:flex-row-reverse sm:ml-14 sm:mt-4 sm:items-center sm:justify-between md:ml-20">
 				<picture
 					><img class="mt-8 relative" src="images/illustration-working.svg" alt=""
 				/></picture>
@@ -62,9 +63,9 @@
 			</div>
 		</header>
 		<main class="">
-			<section class="bg-slate-200 relative mt-40 pb-10">
+			<section class="bg-slate-200 relative mt-40 pb-20 sm:pb-28">
 				<div
-					class="flex flex-col bg-shortenMobile pt-4 pb-4 pl-4 pr-4 bg-contain bg-no-repeat bg-right bg-darkViolet rounded-lg absolute -top-14 w-80 ml-auto mr-auto left-0 right-0 sm:flex-row sm:gap-2 sm:justify-center sm:-top-10 sm:w-3/4">
+					class="flex flex-col bg-shortenMobile pt-4 pb-4 pl-4 pr-4 bg-contain bg-no-repeat bg-right bg-darkViolet rounded-lg absolute -top-14 w-80 ml-auto mr-auto left-0 right-0 sm:flex-row sm:gap-2 sm:justify-center sm:-top-10 sm:w-3/4 sm:pt-8 sm:pb-8 sm:pl-8 sm:pr-8 sm:bg-shortenDesktop sm:bg-cover">
 					<input
 						class="rounded-md pt-2 pb-2 pl-2 sm:w-full"
 						type="text"
@@ -83,60 +84,63 @@
 						statistics dashboard.
 					</p>
 				</div>
-				<div class="relative">
-					<div class="bg-cyan w-2 h-full absolute ml-auto mr-auto left-0 right-0"></div>
+				<div
+					class="relative sm:flex sm:justify-between sm:gap-4 sm:ml-14 sm:mr-14 md:ml-20 md:mr-20">
 					<div
-						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative">
+						class="bg-cyan w-2 h-full absolute ml-auto mr-auto left-0 right-0 sm:w-full sm:h-2 sm:top-48"></div>
+					<div
+						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative sm:max-w-xs md:max-w-lg sm:ml-0 sm:mr-0 sm:pl-4 sm:pr-4">
 						<picture>
 							<img
-								class="bg-darkViolet p-4 rounded-full absolute -top-8 ml-auto mr-auto left-0 right-0 overflow-visible"
+								class="bg-darkViolet p-4 rounded-full absolute -top-8 ml-auto mr-auto left-0 right-0 overflow-visible sm:ml-0 sm:mr-0 sm:left-10"
 								src="images/icon-brand-recognition.svg"
 								alt=""
 						/></picture>
-						<h2 class="text-center font-bold text-lg text-veryDarkBlue">
+						<h2 class="text-center font-bold text-lg text-veryDarkBlue sm:text-left">
 							Brand Recognition
 						</h2>
-						<p class="text-center text-sm mt-4 text-grayishViolet">
+						<p class="text-center text-sm mt-4 text-grayishViolet sm:text-left">
 							Boost your brand recognition with each click. Generic links don’t mean a
 							thing. Branded links help instil confidence in your content.
 						</p>
 					</div>
 
 					<div
-						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative">
+						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative sm:max-w-xs md:max-w-lg sm:ml-0 sm:mr-0 sm:top-10 sm:pl-4 sm:pr-4">
 						<picture
 							><img
-								class="bg-darkViolet p-4 rounded-full absolute -top-8 ml-auto mr-auto left-0 right-0 overflow-visible"
+								class="bg-darkViolet p-4 rounded-full absolute -top-8 ml-auto mr-auto left-0 right-0 overflow-visible sm:ml-0 sm:mr-0 sm:left-10"
 								src="images/icon-detailed-records.svg"
 								alt=""
 						/></picture>
-						<h2 class="text-center font-bold text-lg text-veryDarkBlue">
+						<h2 class="text-center font-bold text-lg text-veryDarkBlue sm:text-left">
 							Detailed Records
 						</h2>
-						<p class="text-center text-sm mt-4 text-grayishViolet">
+						<p class="text-center text-sm mt-4 text-grayishViolet sm:text-left">
 							Gain insights into who is clicking your links. Knowing when and where
 							people engage with your content helps inform better decisions.
 						</p>
 					</div>
 					<div
-						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative">
+						class="bg-white mt-20 ml-8 mr-8 pl-10 pr-10 pb-8 pt-12 rounded-md relative sm:max-w-xs md:max-w-lg sm:ml-0 sm:mr-0 sm:top-20 sm:pl-4 sm:pr-4">
 						<picture
 							><img
-								class="bg-darkViolet p-3 rounded-full absolute -top-9 ml-auto mr-auto left-0 right-0 overflow-visible"
+								class="bg-darkViolet p-3 rounded-full absolute -top-9 ml-auto mr-auto left-0 right-0 overflow-visible sm:ml-0 sm:mr-0 sm:left-10"
 								src="images/icon-fully-customizable.svg"
 								alt=""
 						/></picture>
-						<h2 class="text-center font-bold text-lg text-veryDarkBlue">
+						<h2 class="text-center font-bold text-lg text-veryDarkBlue sm:text-left">
 							Fully Customizable
 						</h2>
-						<p class="text-center text-sm mt-4 text-grayishViolet">
+						<p class="text-center text-sm mt-4 text-grayishViolet sm:text-left">
 							Improve brand awareness and content discoverability through customizable
 							links, supercharging audience engagement.
 						</p>
 					</div>
 				</div>
 			</section>
-			<section class="bg-boostMobile pt-20 pb-20 bg-darkViolet bg-no-repeat bg-cover">
+			<section
+				class="bg-boostMobile pt-20 pb-20 bg-darkViolet bg-no-repeat bg-cover sm:bg-boostDesktop">
 				<h2 class="text-center text-white text-2xl font-bold">Boost your links today</h2>
 				<div class="flex justify-center">
 					<button
@@ -146,10 +150,11 @@
 				</div>
 			</section>
 		</main>
-		<footer class="bg-veryDarkViolet">
-			<div class="flex flex-col items-center">
-				<picture class="mt-10"><img src="images/logo-white.svg" alt="" /></picture>
-				<div class="text-center mt-10">
+		<footer class="bg-veryDarkViolet sm:pt-10 sm:pb-10">
+			<div
+				class="flex flex-col items-center sm:items-start sm:flex-row sm:justify-between sm:ml-14 sm:mr-14 md:ml-20 md:mr-20 sm:gap-2">
+				<picture class="mt-10 sm:mt-0"><img src="images/logo-white.svg" alt="" /></picture>
+				<div class="text-center mt-10 sm:flex sm:gap-8 sm:text-left sm:mt-0">
 					<div class="text-gray">
 						<ul>
 							<li class="font-bold text-white mb-4">Features</li>
@@ -161,7 +166,7 @@
 					</div>
 					<div class="text-gray">
 						<ul>
-							<li class="font-bold text-white mb-4 mt-8">Resources</li>
+							<li class="font-bold text-white mb-4 mt-8 sm:mt-0">Resources</li>
 							<li>Blog</li>
 							<li>Developers</li>
 							<li>Support</li>
@@ -169,7 +174,7 @@
 					</div>
 					<div class="text-gray">
 						<ul>
-							<li class="font-bold text-white mb-4 mt-8">Company</li>
+							<li class="font-bold text-white mb-4 mt-8 sm:mt-0">Company</li>
 							<li>About</li>
 							<li>Our Team</li>
 							<li>Careers</li>
@@ -177,7 +182,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="mt-8 mb-8 flex gap-4">
+				<div class="mt-8 mb-8 flex gap-4 sm:mt-0">
 					<button><img src="images/icon-facebook.svg" alt="" /></button>
 					<button><img src="images/icon-twitter.svg" alt="" /></button>
 					<button><img src="images/icon-pinterest.svg" alt="" /></button>
