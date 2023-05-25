@@ -554,10 +554,6 @@ video {
   top: 3rem;
 }
 
-.left-1 {
-  left: 0.25rem;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -572,6 +568,10 @@ video {
 
 .ml-10 {
   margin-left: 2.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .ml-4 {
@@ -624,10 +624,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .flex {
@@ -684,10 +680,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .overflow-visible {
@@ -905,24 +897,16 @@ video {
     margin-left: 0px;
   }
 
-  .sm\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
   .sm\:ml-12 {
     margin-left: 3rem;
-  }
-
-  .sm\:mt-2 {
-    margin-top: 0.5rem;
   }
 
   .sm\:mt-4 {
     margin-top: 1rem;
   }
 
-  .sm\:mt-8 {
-    margin-top: 2rem;
+  .sm\:mr-12 {
+    margin-right: 3rem;
   }
 
   .sm\:block {
@@ -949,10 +933,6 @@ video {
     align-items: center;
   }
 
-  .sm\:justify-normal {
-    justify-content: normal;
-  }
-
   .sm\:justify-start {
     justify-content: flex-start;
   }
@@ -969,20 +949,24 @@ video {
     justify-content: space-around;
   }
 
-  .sm\:justify-evenly {
-    justify-content: space-evenly;
+  .sm\:justify-stretch {
+    justify-content: stretch;
   }
 
   .sm\:justify-items-end {
     justify-items: end;
   }
 
-  .sm\:gap-2 {
-    gap: 0.5rem;
-  }
-
   .sm\:gap-4 {
     gap: 1rem;
+  }
+
+  .sm\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .sm\:gap-40 {
+    gap: 10rem;
   }
 
   .sm\:text-left {
