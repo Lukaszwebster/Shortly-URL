@@ -4,7 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
 		<title>Frontend Mentor | Shortly URL shortening API Challenge</title>
 		<link href="./output.css" rel="stylesheet" />
 		<style>
@@ -25,9 +24,9 @@
 				<div class="flex items-center gap-4">
 					<picture><img src="images/logo.svg" alt="image of logo Shortly" /> </picture>
 					<ul class="hidden sm:flex sm:gap-2 text-grayishViolet">
-						<li>Features</li>
-						<li>Pricing</li>
-						<li>Resources</li>
+						<li class="hover:text-veryDarkBlue cursor-pointer">Features</li>
+						<li class="hover:text-veryDarkBlue cursor-pointer">Pricing</li>
+						<li class="hover:text-veryDarkBlue cursor-pointer">Resources</li>
 					</ul>
 				</div>
 				<div class="hidden sm:flex">
@@ -56,7 +55,8 @@
 						are performing.
 					</p>
 					<div class="flex justify-center sm:justify-start">
-						<button class="bg-cyan text-white mt-4 rounded-3xl pl-8 pr-8 pt-2 pb-2">
+						<button
+							class="bg-cyan text-white mt-4 rounded-3xl pl-8 pr-8 pt-2 pb-2 hover:bg-teal-200">
 							Get Started
 						</button>
 					</div>
@@ -71,7 +71,8 @@
 						class="rounded-md pt-2 pb-2 pl-2 sm:w-full"
 						type="text"
 						placeholder="Shorten a link here..." />
-					<button class="bg-cyan rounded-md mt-4 pt-2 pb-2 text-white sm:mt-0 sm:w-40">
+					<button
+						class="bg-cyan rounded-md mt-4 pt-2 pb-2 text-white sm:mt-0 sm:w-40 hover:bg-teal-200">
 						Shorten It!
 					</button>
 				</div>
@@ -145,7 +146,7 @@
 				<h2 class="text-center text-white text-2xl font-bold">Boost your links today</h2>
 				<div class="flex justify-center">
 					<button
-						class="bg-cyan mt-4 rounded-3xl pl-8 pr-8 pt-2 pb-2 text-white font-bold">
+						class="bg-cyan mt-4 rounded-3xl pl-8 pr-8 pt-2 pb-2 text-white font-bold hover:bg-teal-200">
 						Get Started
 					</button>
 				</div>
@@ -160,32 +161,36 @@
 						<ul>
 							<li class="font-bold text-white mb-4">Features</li>
 
-							<li>Link Shortening</li>
-							<li>Branded Links</li>
-							<li>Analytics</li>
+							<li class="hover:text-cyan cursor-pointer">Link Shortening</li>
+							<li class="hover:text-cyan cursor-pointer">Branded Links</li>
+							<li class="hover:text-cyan cursor-pointer">Analytics</li>
 						</ul>
 					</div>
 					<div class="text-gray">
 						<ul>
 							<li class="font-bold text-white mb-4 mt-8 sm:mt-0">Resources</li>
-							<li>Blog</li>
-							<li>Developers</li>
-							<li>Support</li>
+							<li class="hover:text-cyan cursor-pointer">Blog</li>
+							<li class="hover:text-cyan cursor-pointer">Developers</li>
+							<li class="hover:text-cyan cursor-pointer">Support</li>
 						</ul>
 					</div>
 					<div class="text-gray">
 						<ul>
 							<li class="font-bold text-white mb-4 mt-8 sm:mt-0">Company</li>
-							<li>About</li>
-							<li>Our Team</li>
-							<li>Careers</li>
-							<li>Contact</li>
+							<li class="hover:text-cyan cursor-pointer">About</li>
+							<li class="hover:text-cyan cursor-pointer">Our Team</li>
+							<li class="hover:text-cyan cursor-pointer">Careers</li>
+							<li class="hover:text-cyan cursor-pointer">Contact</li>
 						</ul>
 					</div>
 				</div>
 				<div class="mt-8 mb-8 flex gap-4 sm:mt-0">
-					<button><img src="images/icon-facebook.svg" alt="" /></button>
-					<button><img src="images/icon-twitter.svg" alt="" /></button>
+					<button>
+						<img src="images/icon-facebook.svg" alt="" />
+					</button>
+					<button>
+						<img src="images/icon-twitter.svg" alt="" />
+					</button>
 					<button><img src="images/icon-pinterest.svg" alt="" /></button>
 					<button><img src="images/icon-instagram.svg" alt="" /></button>
 				</div>
