@@ -23,9 +23,10 @@ shortBtn.addEventListener("click", async () => {
 	console.log(linkInput.value);
 	await fetchShorten(linkInput.value);
 	showElements();
+	linkInput.value = "";
 });
 const showElements = () => {
 	linksArray.forEach((el) => {
-		divResult.innerHTML = `<div>${el.original_link}, ${el.short_link}</div><br>`;
+		divResult.innerHTML = `<div>${el.original_link} <br> ${el.short_link}</div> <button class="btn">copy</button>`;
 	});
 };
