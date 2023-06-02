@@ -3,5 +3,35 @@
 @tailwind utilities;
 
 .btn {
-	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.copy {
+	background-color: hsl(180, 66%, 49%);
+	color: white;
+	border-radius: 12%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-bottom: 4px;
+}
+
+@media (min-width: 640px) {
+	.copy {
+		margin-bottom: 0px;
+	}
+	.btn {
+		flex-direction: row;
+		gap: 8px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		margin-right: 2px;
+	}
+	.originalLink {
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 4px;
+	}
 }
