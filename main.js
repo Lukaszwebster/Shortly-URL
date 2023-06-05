@@ -27,6 +27,12 @@ shortBtn.addEventListener("click", async () => {
 });
 const showElements = () => {
 	linksArray.forEach((el) => {
-		divResult.innerHTML = `<div class="originalLink">${el.original_link}</div> <button type="button" class="btn"><span>${el.short_link}</span><span class="copy">copy</span></button>`;
+		divResult.innerHTML = `<div class="originalLink">${el.original_link}</div> <div class="line"></div> <button type="button" class="btn"><span class="shortLink">${el.short_link}</span><span class="copy">Copy</span><span class="copied hide">Copied!</span></button>`;
+	});
+	const copied = document.querySelector(".copied");
+	const copy = document.querySelector(".copy");
+	copy.addEventListener("click", () => {
+		copy.classList.add("hide");
+		copied.classList.remove("hide");
 	});
 };

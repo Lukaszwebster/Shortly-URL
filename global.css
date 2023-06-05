@@ -5,22 +5,60 @@
 .btn {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 .copy {
 	background-color: hsl(180, 66%, 49%);
 	color: white;
-	border-radius: 12%;
+	border-radius: 4px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 4px;
 	padding-right: 4px;
-	margin-bottom: 4px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	width: 100%;
+}
+.copied {
+	background-color: hsl(257, 27%, 26%);
+	border-radius: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: white;
+	width: 100%;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.shortLink {
+	color: hsl(180, 66%, 49%);
+	margin-top: 8px;
+}
+.originalLink {
+	margin-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.line {
+	height: 1px;
+	background-color: hsl(0, 0%, 75%);
+	margin-top: 8px;
 }
 
+.hide {
+	display: none;
+}
 @media (min-width: 640px) {
 	.copy {
 		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	.copied {
+		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 	.btn {
 		flex-direction: row;
@@ -33,5 +71,8 @@
 		margin-top: 2px;
 		margin-bottom: 2px;
 		margin-left: 4px;
+	}
+	.shortLink {
+		margin-top: 2px;
 	}
 }
